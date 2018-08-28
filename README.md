@@ -18,7 +18,12 @@ curl http://localhost:8080/hello/Zhenglai/Zhang
 {"id":"f3831f8c-c338-4ebe-a82a-e2fc1d1ff78a","organizationId":"test-org","productName":"demo-project-name","licenseType":"test-vol"}%
 
 
-mvn clean package && java –jar target/licensing-service-0.0.1-SNAPSHOT.jar
+curl http://localhost:8080/actuator/health
+{"status":"UP"}%                                                                                                                                                                              
+
+
+mvn clean package && java –jar target/hello-ms-0.0.1-SNAPSHOT.jar
+./gradlew build && java -jar build/libs/hello-ms-0.0.1-SNAPSHOT.jar
 ```
 
 
