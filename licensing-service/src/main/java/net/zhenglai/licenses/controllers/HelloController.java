@@ -1,4 +1,4 @@
-package net.zhenglai.ms.controllers;
+package net.zhenglai.licenses.controllers;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

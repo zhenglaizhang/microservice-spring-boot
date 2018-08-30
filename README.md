@@ -15,7 +15,7 @@ curl http://localhost:8080/hello/Zhenglai/Zhang
 
 
 ▶ curl http://localhost:8080/v1/organizations/e254f8c-c442-4ebe-a82a-e2fc1d1ff78a/licenses/f3831f8c-c338-4ebe-a82a-e2fc1d1ff78a
-{"id":"f3831f8c-c338-4ebe-a82a-e2fc1d1ff78a","organizationId":"test-org","productName":"demo-project-name","licenseType":"test-vol"}%
+{"licenseId":"f3831f8c-c338-4ebe-a82a-e2fc1d1ff78a","organizationId":"test-org","productName":"demo-project-name","licenseType":"test-vol"}%
 
 
 curl http://localhost:8080/actuator/health
