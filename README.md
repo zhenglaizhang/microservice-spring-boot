@@ -24,6 +24,11 @@ curl http://localhost:8080/actuator/health
 
 mvn clean package && java –jar target/hello-ms-0.0.1-SNAPSHOT.jar
 ./gradlew build && java -jar build/libs/hello-ms-0.0.1-SNAPSHOT.jar
+
+
+
+# config server
+curl http://localhost:8888/licensingservice/dev
 ```
 
 
