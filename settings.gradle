@@ -11,5 +11,5 @@
 
 rootProject.name = 'microservice-demo'
 
-include 'api'
+include 'licensing-service'
 include 'confsvr'
