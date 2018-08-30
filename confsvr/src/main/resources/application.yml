@@ -2,10 +2,15 @@ server:
   port: 8888
 spring:
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
         native:
           search-locations: file:///home/zhenglai/repo/hello-ms/confsvr/src/main/resources/config/licensingservice
+        git:
+          uri: https://github.com/zhenglaizhang/spring-cloud-config-repo/
+          search-paths: licensingservice,organizationservice
+          username: native-cloud-apps
+          passphrase: P@ssw0rd
 
