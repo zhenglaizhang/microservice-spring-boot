@@ -13,3 +13,4 @@ rootProject.name = 'microservice-demo'
 
 include 'licensing-service'
 include 'confsvr'
+include 'eurekasvr'
